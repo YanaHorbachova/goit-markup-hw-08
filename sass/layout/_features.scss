@@ -56,7 +56,7 @@
     .title {
       text-align: center;
     }
-    .item:not(:last-child) {
+    .item {
       margin-bottom: 30px;
     }
   }
@@ -69,12 +69,16 @@
     flex-wrap: wrap;
 
     .item {
-      width: 354px; 
+      width: 354px;
+      margin-bottom: 30px; 
     }        
   }  
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .features {
+    .item:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 30px;
+    }
 
     .item:nth-child(2n+1){
       margin-right: 30px;
