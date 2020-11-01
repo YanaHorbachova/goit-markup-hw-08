@@ -1,17 +1,35 @@
 .section {
-  padding-top: 94px;
+  padding-top: 60px;
 
   &-title {
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: $title-text-collor;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    font-size: 28px;
+    line-height: 1.17;
     text-align: center;
   }
 }
 
 .box {
-  padding-bottom: 94px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+
+    &-title {
+      margin-top: 0px;
+      margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.16;
+    }
+  }
+
+  .box {
+    padding-bottom: 94px;
+  }
+   
 }
