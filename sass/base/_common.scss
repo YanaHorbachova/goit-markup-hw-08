@@ -1,0 +1,21 @@
+  body {
+    background-color: $white-collor;
+    color: $primery-text-collor;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
+  }
+  ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .hidden {
+    display: none;
+  }
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  img {
+    display: block;
+  }
