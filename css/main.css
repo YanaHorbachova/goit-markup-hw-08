@@ -159,6 +159,25 @@ img {
   fill: #fff;
 }
 
+/* LOGO */
+.logo {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: #212121;
+}
+
+.logo-footer {
+  color: #fff;
+}
+
 .hero {
   background-color: #2f303a;
   text-align: center;
@@ -518,6 +537,155 @@ img {
 @media screen and (min-width: 1200px) {
   .clients-list .item:not(:last-child) {
     margin-right: 30px;
+  }
+}
+
+.footer {
+  padding: 60px 0px;
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 1, 7;
+}
+
+.footer .conteiner {
+  display: flex;
+}
+
+.footer .social-list svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.footer .social-link:hover,
+.footer .social-link:focus {
+  background-color: #2196f3;
+}
+
+.footer .social-list-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer .social-list-link li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer .social-list-link li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.title.social {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.address-office {
+  display: block;
+  margin-bottom: 9px;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.contacts-footer {
+  display: block;
+  margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.mailing-form input {
+  width: 450px;
+  height: 50px;
+  padding: 15px;
+  background-color: rgba(33, 150, 243, 0);
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.mailing-form .button {
+  display: flex;
+  justify-content: center;
+}
+
+.mailing-form svg {
+  margin-left: 10px;
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer .conteiner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer .social-list {
+    margin: 60px 0;
+  }
+  .footer .social-list-link {
+    width: 208px;
+    margin: 0 auto;
+  }
+  .mailing-form input {
+    margin-bottom: 20px;
+  }
+  .mailing-form .button {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer .conteiner {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .footer .contacts {
+    margin-left: 76px;
+  }
+  .footer .social-list {
+    margin-left: 165px;
+  }
+  .mailing-form {
+    margin: 0 auto;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+  .button {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .conteiner {
+    align-items: flex-start;
+  }
+  .footer .logo {
+    margin-bottom: 10px;
+  }
+  .footer .social-list {
+    margin-left: 70px;
+    margin-right: 94px;
+  }
+  .mailing-form-list {
+    display: flex;
+  }
+  .mailing-form input {
+    width: 358px;
+    margin-right: 12px;
   }
 }
 /*# sourceMappingURL=main.css.map */
