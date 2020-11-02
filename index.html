@@ -15,12 +15,23 @@
 <body>
 
   <!--HEDER-->
-  <!-- <header>
+  <header>
     <section class="conteiner">
       <div class="nav">
         <a class="logo" href="./index.html" aria-label="логотип веб студии">Web<span
             class="logo-header">Studio</span></a>
-        <nav>
+        <button type="button" class="menu-button"
+        aria-expanded="false" aria-controls="menu-conteiner" data-menu-button>
+          <svg 
+          width="40" 
+          height="40" 
+          aria-label="Переключатель мобильного меню">
+            <use class="icon-menu" href="./images/sprite.svg#menu"> </use>
+            <use class="icon-cross" href="./images/sprite.svg#close-button"> </use>
+          </svg>
+        </button>
+
+        <!-- <nav>
           <ul class="site-nav">
             <li class="item-nav"><a href="./index.html" class="link current">Студия</a></li>
             <li class="item-nav"><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -36,10 +47,10 @@
               <svg class="address-svg" width="10" height="16">
                 <use href="./images/sprite.svg#smartphone"></use>
               </svg>+38 096 111 11 11</a></li>
-        </ul>
+        </ul> -->
       </div>
     </section>
-  </header> -->
+  </header>
 
   <main>
     <!--HERO-->
@@ -289,7 +300,7 @@
   <!--FOOTER-->
   <footer class="footer">
     <div class="conteiner">
-      <div class="contacts">
+      <div class="footer-list-contacts">
         <a class="logo" href="./index.html" aria-label="логотип веб студии">Web<span
             class="logo-footer">Studio</span></a>
         <ul>
@@ -387,6 +398,7 @@
     </div>
   </div> -->
 
+  <script src="./js/menu.js"></script>
   <script src="./js/modal.js"></script>
 </body>
 
