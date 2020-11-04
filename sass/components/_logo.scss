@@ -1,18 +1,20 @@
 /* LOGO */
 .logo {
-    color: $accent-collor;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  color: $accent-collor;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 
-    &-header {
-      color: $title-text-collor;
-    }
-
-    &-footer { 
-      color: $white-collor;
-    }
+  &-header {
+    color: $title-text-collor;
   }
+
+  &-footer { 
+    color: $white-collor;
+  }
+}
+
+  
