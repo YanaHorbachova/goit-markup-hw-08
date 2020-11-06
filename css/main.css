@@ -399,7 +399,10 @@ img {
   color: #fff;
 }
 
-/* NAV */
+.portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
 .page-heder {
   position: relative;
 }
